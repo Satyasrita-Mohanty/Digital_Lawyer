@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.container{
+    max-width: 1240px;
+}
+nav{
+    padding: 0;
+    margin: 0;
+
+}
+.navigationBarMobile{
+    display: block;
+}
+.navigationBarDesktop{
+    display: none;
+}
+.menuIcon{
+    margin-left: -7px;
+}
+.mobileNavbar{
+    margin-left: 15px;
+}
+.jumbotron-header {  
+   text-align: center;
+   top: 0px;
+   right: 0;
+   left: 0;
+   width: 100%;
+   background-color: #1d2227 !important;
+}
+.navigationBarDesktop .navbar{
+    padding: 0px;
+}
+.logoImage{
+    max-width: 50%;    
+}
+.navigationBarMobile .navLink{
+    font-size: 12px !important;
+    padding: 0px !important;
+}
+.navLink{
+    color:  #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;  
+    padding: 0px 10px;
+}
+.navLink:hover{
+    text-decoration: none;
+    color:  #ffffff;  
+}
+.container-1{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0px auto;
+    background-color:  #f6e6bb;
+}
+.menuLink{
+    color: #060506;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 6px;
+    font-weight: bold;
+    
+}
+.menuLink:hover{
+    text-decoration: none;
+      color:#C8242F;
+}
+.container-1 .active{
+    color: #C8242F !important;
+}
+.banner{
+    background-image: url(../images/bg3.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+.bannerContainer{
+    padding: 195px 0px;
+}
+.bannerHead{
+   color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+.bannersubHead{
+    color: #C8242F;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;  
+}
+.contactButton{
+    color: #000000;
+    padding: 13px 23px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #f6e6bb;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.contactButton:hover{
+    color: #000000;
+    background-color: #f6e6bb;
+    text-decoration: none;
+}
+.aboutImage{
+    max-height: 50%;
+}
+#aboutus{
+    text-align: center; 
+    margin: 0px auto;
+}
+.menuCnt{
+   padding: 10px 0px; 
+}
+.menuHeading{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize; 
+    color: #C8242F;
+    font-size: 26px;
+    font-weight: bold;
+}
+.menuSubHeading{
+    font-family: 'Montserrat', sans-serif;
+    color:  #737373;
+    font-size: 16px;
+    line-height: 23px;
+}
+.aboutImage1{
+    max-width: 70%;
+}
+.aboutImage2{
+    max-width: 57%;
+}
+
+
+
+
+
+
+
+
+.jumbotron-footer{
+    background: #1d2227 ;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	padding: 30px 0px 40px 0px !important;
+    margin: 8px 0px 0px 0px;  
+}
+.footerHeading{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+}
+.submitButton{
+     color: #ffffff ;
+    font-family: 'Pathway Gothic One', sans-serif;
+    cursor: pointer;
+    background-color: #C8242F;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 0px;
+}
+.jumbotron-footer  .form-control{
+    border-radius: 0px;
+    background-color: #f9f3e6;
+    padding: 0px;
+    text-align: left;
+}
+.jumbotron-footer .form-inline label{
+    margin-left: 7px;
+}
+.centraline{
+   text-align: center;
+    margin: 0px auto;
+    padding: 0px 0px 30px 0px;
+}
+.whiteHr{
+    border: 1px solid #f9f3e6;
+}
+.navLink1{
+    text-transform: capitalize !important;
+}
+.centerFix{
+    margin: 0px auto !important;
+    text-align: center !important;
+}
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+  .navLink{
+        font-size: 14px;
+    }
+    .menuLink{
+        font-size: 10px;
+    }
+      .footerHeading{
+       font-size: 15px;  
+     }
+     .submitButton{
+        font-size: 12px !important;
+    }
+     .centraline{
+      padding: 0px 0px 20px 0px;
+    }
+
+}
+
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+ .logoImage{
+    margin-left: -33px;
+    max-width: 70%;
+  }
+   .submitButton{
+        margin-top: 10px;
+        margin-left: -6px;
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+     .jumbotron-footer .form-control{
+        padding: 10px;
+    }
+  
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+    .navigationBarMobile{
+        display: none;
+    }
+  .navigationBarDesktop{
+        display: block;
+    }
+    .menuLink{
+       padding: 0px 10px;
+       font-size: 12px;
+    }
+    .footerHeading{
+       font-size: 22px;  
+    }
+     .submitButton{
+        padding: 3px 10px;
+    }
+    .centraline{
+       padding: 40px 0px 30px 0px;
+    }
+    .footerForm{
+        padding-left: 35px;
+    }
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+  .menuLink{
+      padding: 0px 25px;
+      font-size: 14px;
+    }
+    .footerHeading{
+       font-size: 30px;  
+    }
+     .submitButton{
+        padding: 5px 10px;
+    }
+      .centraline{
+       padding: 10px 0px 10px 0px;
+    }
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+.menuLink{
+    padding: 0px 38px;
+    font-size: 15px;
+ }
+  .jumbotron-footer .form-control{
+        padding: 20px 50px;
+    }
+     .footerForm{
+        padding-left: 110px !important;
+    }
+   
+}
