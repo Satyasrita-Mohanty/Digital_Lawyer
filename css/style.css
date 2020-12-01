@@ -132,12 +132,13 @@ nav{
     border-radius: 10px;
 }
 .contactButton:hover{
-    color: #000000;
+    color: #C8242F;
     background-color: #f6e6bb;
     text-decoration: none;
 }
 .aboutImage{
     max-height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 #aboutus{
     text-align: center; 
@@ -164,6 +165,178 @@ nav{
 }
 .aboutImage2{
     max-width: 57%;
+}
+.menuSubHeadingBold{
+    font-weight: bold;
+}
+.iconHeading{
+     font-family: 'Montserrat', sans-serif;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.centerPlace{
+   text-align: center; 
+}
+.serviceImages{
+   height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #d9d9d9;
+}
+.aboutImage:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+
+/* growing button start */
+ .wrapper {
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #f6e6bb;
+          -webkit-box-shadow: 0 0 3px #f6e6bb;
+        }
+        50% {
+          background-color: #f6e6bb;
+          -webkit-box-shadow: 0 0 15px #f6e6bb;
+        }
+        100% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #f6e6bb;
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #f6e6bb;
+          box-shadow: 0 0 3px #f6e6bb;
+        }
+        50% {
+          background-color: #f6e6bb;
+          box-shadow: 0 0 15px #f6e6bb;
+        }
+        100% {
+          background-color: #f6e6bb;
+          box-shadow: 0 0 3px #f6e6bb;
+        }
+      }
+      .svg-btn {
+         display: block;
+       }
+      svg {
+        fill: blue;
+        -webkit-animation: glowing-polygon 1300ms infinite;
+        -moz-animation: glowing-polygon 1300ms infinite;
+        -o-animation: glowing-polygon 1300ms infinite;
+        animation: glowing-polygon 1300ms infinite;
+      }
+          .aa{
+        fill: blue;
+        -webkit-animation: glowing-polygon 1300ms infinite;
+        -moz-animation: glowing-polygon 1300ms infinite;
+        -o-animation: glowing-polygon 1300ms infinite;
+        animation: glowing-polygon 1300ms infinite;
+      }
+      @-webkit-keyframes glowing-polygon {
+        0% {
+          fill: #f6e6bb;
+          -webkit-filter: drop-shadow( 0 0 3px #f6e6bb);
+        }
+        50% {
+          fill: #f6e6bb;
+          -webkit-filter: drop-shadow( 0 0 15px #808080);
+        }
+        100% {
+          fill: #f6e6bb;
+          -webkit-filter: drop-shadow( 0 0 3px #f6e6bb);
+        }
+      }
+      @keyframes glowingPolygon {
+        0% {
+          fill: #f6e6bb;
+          filter: drop-shadow( 0 0 3px#f6e6bb);
+        }
+        50% {
+          fill: #f6e6bb;
+          filter: drop-shadow( 0 0 15px  #808080);
+        }
+        100% {
+          fill: #f6e6bb;
+          filter: drop-shadow( 0 0 3px #f6e6bb);
+        }
+      }
+/* growing button end */
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: transparent;
+    color: #C8242F;
+     font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:focus{
+     border-color: transparent;
+}
+.greycircle{
+    font-size: 9px;
+}
+.tabHeading{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;  
+    font-size: 15px;
+    font-weight: bold;
+}
+.tabHeading:hover{
+   color: #C8242F; 
+}
+.menuSubHeadingServices{
+    font-size: 15px !important;
+    line-height: 24px;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
 
 
