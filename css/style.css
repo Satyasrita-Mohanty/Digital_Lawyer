@@ -93,6 +93,7 @@ nav{
 .container-1 .active{
     color: #C8242F !important;
 }
+
 .banner{
     background-image: url(../images/bg3.jpg);
     background-attachment: fixed;
@@ -122,14 +123,30 @@ nav{
 }
 .contactButton{
     color: #000000;
-    padding: 13px 23px;
+    padding: 11px 23px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     background-color: #f6e6bb;
     font-weight: bold;
     border-radius: 10px;
+}
+.subHeading1{
+    padding: 20px 0px;
+   
+}
+.green{
+   background-color: grey;
+    width: 2px;
+}
+.subHeading11{
+  background-color:  #e6e6e6;padding: 4px 35px;
+    margin-top: -15px;
+}
+.bannerHead1{
+    color: #000000 !important;
+    font-size: 24px !important;
 }
 .contactButton:hover{
     color: #C8242F;
@@ -137,8 +154,11 @@ nav{
     text-decoration: none;
 }
 .aboutImage{
-    max-height: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    max-height: 50%; 
+}
+
+.textLeft{
+   text-align: left !important;
 }
 #aboutus{
     text-align: center; 
@@ -146,6 +166,22 @@ nav{
 }
 .menuCnt{
    padding: 10px 0px; 
+}
+.greyBack{
+    background-color:  #cccccc;
+    padding: 30px;
+}
+.textCenter{
+    text-align: center;
+    margin: 0px auto;
+}
+.count
+{
+  line-height: 10px;
+  color:#C8242F;
+  font-size:25px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .menuHeading{
     font-family: 'Montserrat', sans-serif;
@@ -157,12 +193,18 @@ nav{
 .menuSubHeading{
     font-family: 'Montserrat', sans-serif;
     color:  #737373;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 23px;
 }
-.aboutImage1{
-    max-width: 70%;
+.subHeading{
+    font-family: 'Montserrat', sans-serif;
+    color:  #000000;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
 .aboutImage2{
     max-width: 57%;
 }
