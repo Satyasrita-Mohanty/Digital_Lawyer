@@ -168,11 +168,14 @@ nav{
     border-left: 1px solid #e07a26; 
     width: 100%;
     margin-left: 35px;
-    height: 861px;
+    height: 655px;
 }
 .img3{
     width: 106%;
      margin-left: -30px;
+}
+.imgMargin{
+   margin-left: 15px;
 }
 .contactBack{
   background-color: #7b7c7c;
@@ -317,7 +320,7 @@ nav{
 
 .serviceBack{
   border: 1px solid #e6e6e6;
-  padding: 35px 20px;
+  padding: 53px 0px;
   background-color:  #f2f2f2;
 }
 .imgService{
@@ -342,6 +345,7 @@ nav{
 }
 .greycircle{
     font-size: 9px;
+    color: #e07a26;
 }
 .tabHeading{
     color: #000000;
@@ -355,9 +359,25 @@ nav{
 }
 .menuSubHeadingServices{
     font-size: 15px !important;
-    line-height: 24px;
+    line-height: 28px;
 }
-
+.imgHeight{
+   height: 630px; 
+    width: 100%;
+}
+.imgHeight1{
+   height: 630px; 
+    width: 100%;
+}
+.imgBorderLeft{
+   border-left: 1px solid #e07a26; 
+}
+.imgBorderRight{
+   border-right: 1px solid #e07a26; 
+}
+.imgMarginL{
+   margin-left: -15px; 
+}
 
 
 .subHeadingTouch{
@@ -384,7 +404,7 @@ nav{
 	background-repeat: no-repeat;
     background-size: cover;
 	padding: 20px 0px 20px 0px !important;
-    margin: 8px 0px 0px 0px;  
+    margin: 0px 0px 0px 0px;  
 }
 .footerHeading{
     color: #ffffff;
