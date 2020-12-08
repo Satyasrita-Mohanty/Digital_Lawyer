@@ -97,13 +97,17 @@ nav{
 .projectcode{
     float: right;
     background-color: #e07a26;
-    padding: 20px 15px;
+    padding: 11px 15px;
     margin-top: -20px;
     margin-right: -40px;
 }
 .projectcode .menuLink:hover{
     color: #ffffff;
 }
+.whiteArrow{
+   max-width: 30%; 
+}
+
 
 .banner{
     background-image: url(../images/Desktop1.png);
@@ -125,10 +129,10 @@ nav{
     font-size: 36px;
 }
 .bannersubHead{
-    color: #C8242F;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize; 
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 1px;
     font-size: 24px;  
 }
@@ -148,6 +152,9 @@ nav{
     font-size: 12px !important;
    
 }
+.aboutusheading:hover{
+    text-decoration: none;
+}
 .extraPadding{
     padding: 35px 20px 30px 50px;
 }
@@ -158,7 +165,20 @@ nav{
     border-right: 1px solid #e07a26;
 }
 .img2{
-   border-left: 2px solid #e07a26; 
+    border-left: 1px solid #e07a26; 
+    width: 100%;
+    margin-left: 35px;
+    height: 861px;
+}
+.img3{
+    width: 106%;
+     margin-left: -30px;
+}
+.contactBack{
+  background-color: #7b7c7c;
+}
+.getinTouch .form-control{
+    background-color: #e6e6e6;
 }
 .colorHr{
   border-top: 1px solid #e07a26;
@@ -187,10 +207,12 @@ nav{
 }
 
 .detailsCnt{
-    float: right;
+  float: right;
 }
-
-
+.arrowImage{
+  max-width: 40%;
+    margin-right: -4px;
+}
 .subHeading11{
   background-color:  ;
     padding: 42px 0px;
@@ -199,7 +221,6 @@ nav{
 .extraWidth{
     width: 107% !important;
 }
-
 .subHeading12{
    background-color: #e3e4e5;
     padding: 40px 50px;
@@ -294,90 +315,19 @@ nav{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
+.serviceBack{
+  border: 1px solid #e6e6e6;
+  padding: 35px 20px;
+  background-color:  #f2f2f2;
+}
+.imgService{
+    max-width: 60%;
+}
+.textCenter{
+    text-align: center;
+}
 
-/* growing button start */
- .wrapper {
-        display: flex;
-        height: auto;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-     
-      @-webkit-keyframes glowing {
-        0% {
-          background-color: #f6e6bb;
-          -webkit-box-shadow: 0 0 3px #f6e6bb;
-        }
-        50% {
-          background-color: #f6e6bb;
-          -webkit-box-shadow: 0 0 15px #f6e6bb;
-        }
-        100% {
-          background-color: #0091b2;
-          -webkit-box-shadow: 0 0 3px #f6e6bb;
-        }
-      }
-      @keyframes glowing {
-        0% {
-          background-color: #f6e6bb;
-          box-shadow: 0 0 3px #f6e6bb;
-        }
-        50% {
-          background-color: #f6e6bb;
-          box-shadow: 0 0 15px #f6e6bb;
-        }
-        100% {
-          background-color: #f6e6bb;
-          box-shadow: 0 0 3px #f6e6bb;
-        }
-      }
-      .svg-btn {
-         display: block;
-       }
-      svg {
-        fill: blue;
-        -webkit-animation: glowing-polygon 1300ms infinite;
-        -moz-animation: glowing-polygon 1300ms infinite;
-        -o-animation: glowing-polygon 1300ms infinite;
-        animation: glowing-polygon 1300ms infinite;
-      }
-          .aa{
-        fill: blue;
-        -webkit-animation: glowing-polygon 1300ms infinite;
-        -moz-animation: glowing-polygon 1300ms infinite;
-        -o-animation: glowing-polygon 1300ms infinite;
-        animation: glowing-polygon 1300ms infinite;
-      }
-      @-webkit-keyframes glowing-polygon {
-        0% {
-          fill: #f6e6bb;
-          -webkit-filter: drop-shadow( 0 0 3px #f6e6bb);
-        }
-        50% {
-          fill: #f6e6bb;
-          -webkit-filter: drop-shadow( 0 0 15px #808080);
-        }
-        100% {
-          fill: #f6e6bb;
-          -webkit-filter: drop-shadow( 0 0 3px #f6e6bb);
-        }
-      }
-      @keyframes glowingPolygon {
-        0% {
-          fill: #f6e6bb;
-          filter: drop-shadow( 0 0 3px#f6e6bb);
-        }
-        50% {
-          fill: #f6e6bb;
-          filter: drop-shadow( 0 0 15px  #808080);
-        }
-        100% {
-          fill: #f6e6bb;
-          filter: drop-shadow( 0 0 3px #f6e6bb);
-        }
-      }
-/* growing button end */
+
 .nav-tabs{
     border-bottom: none;
 }
@@ -408,53 +358,32 @@ nav{
     line-height: 24px;
 }
 
-.slideanim {visibility:hidden;}
-.slide {
-  /* The name of the animation */
-  animation-name: slide;
-  -webkit-animation-name: slide;
-  /* The duration of the animation */
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  /* Make the element visible */
-  visibility: visible;
+
+
+.subHeadingTouch{
+  color: #ffffff !important;
+   font-size: 18px;
+    letter-spacing: 2px;
+}
+.locationcnt .details{
+  color: #ffffff;
+    
+}
+.locationcnt .details:hover{
+  color: #ffffff;
+    
+   background-color: #666666;
 }
 
-/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
+.navLink1{
+    text-transform: lowercase !important;
 }
-@-webkit-keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-
-
-
-
-
-
-
-
 .jumbotron-footer{
     background: #1d2227 ;
 	border-radius: 0px !important;
 	background-repeat: no-repeat;
     background-size: cover;
-	padding: 30px 0px 40px 0px !important;
+	padding: 20px 0px 20px 0px !important;
     margin: 8px 0px 0px 0px;  
 }
 .footerHeading{
@@ -466,14 +395,18 @@ nav{
 }
 .submitButton{
      color: #ffffff ;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    background-color: #C8242F;
+    background-color: #e07a26;
     text-decoration: none;
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 0px;
 }
+.submitButton:hover{
+    color: #ffffff;
+}
+
 .jumbotron-footer  .form-control{
     border-radius: 0px;
     background-color: #f9f3e6;
@@ -610,6 +543,7 @@ nav{
 .menuLink{
     padding: 0px 24px;
     font-size: 14px;
+    letter-spacing: 3px;
  }
   .jumbotron-footer .form-control{
         padding: 20px 50px;
