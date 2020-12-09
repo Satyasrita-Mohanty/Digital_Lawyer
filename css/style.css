@@ -30,6 +30,9 @@ nav{
 .navigationBarMobile{
     display: block;
 }
+.navigationBarMobile .nav-item{
+    padding: 5px 0px !important;
+}
 .navigationBarDesktop{
     display: none;
 }
@@ -110,12 +113,9 @@ nav{
 
 
 .banner{
-    background-image: url(../images/Desktop1.png);
-   
-   
+    background-image: url(../images/Desktop4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 660px;
 }
 .bannerContainer{
     padding: 195px 0px;
@@ -171,8 +171,9 @@ nav{
     height: 655px;
 }
 .img3{
-    width: 106%;
-     margin-left: -30px;
+    width: 105%;
+    margin-left: -22px;
+    height: 100%;
 }
 .imgMargin{
    margin-left: 15px;
@@ -230,7 +231,7 @@ nav{
 }
 .bannerHead1{
     color: #000000 !important;
-    font-size: 26px !important;
+    font-size: 22px !important;
     text-transform: capitalize;
 }
 .contactButton:hover{
@@ -320,11 +321,11 @@ nav{
 
 .serviceBack{
   border: 1px solid #e6e6e6;
-  padding: 53px 0px;
+  padding: 21px 0px;
   background-color:  #f2f2f2;
 }
 .imgService{
-    max-width: 60%;
+    max-width: 25%;
 }
 .textCenter{
     text-align: center;
@@ -396,6 +397,9 @@ nav{
 }
 
 .navLink1{
+    text-transform: lowercase !important;
+}
+.navLink2{
     text-transform: lowercase !important;
 }
 .jumbotron-footer{
@@ -474,13 +478,36 @@ nav{
      }
      .submitButton{
         font-size: 12px !important;
-    }
-     .centraline{
+     }
+    .centraline{
       padding: 0px 0px 20px 0px;
+     }
+     .bannersubHead{
+        font-size: 14px !important;
+    }
+      .img1{
+        height: auto;
+        margin-left: -15px;
+        width: 123% !important;
+    }
+    .bannerHead1{
+        font-size: 18px !important; 
+    }
+    .img2{
+        width: 127% !important;
+    }
+    .img3{
+        width: 110% !important;
+        margin-left: -15px !important;
+    }
+    .menuSubHeading{
+     font-size: 12px !important;
+    }
+    .rowMargin{
+       margin-top: -133px !important;   
     }
 
 }
-
 
 
 /* Medium devices ( 767px and down) start */
@@ -495,10 +522,73 @@ nav{
         font-size: 14px;
         padding: 3px 10px;
     }
-     .jumbotron-footer .form-control{
+    .jumbotron-footer .form-control{
         padding: 10px;
     }
-  
+    .banner{
+        height: auto;
+    }
+    .bannersubHead{
+        font-size: 18px;
+    }
+    .img1{
+        height: auto;
+        margin-left: -15px;
+        width: 119%;
+        border: none;
+    }
+    .extraPadding{
+        padding: 10px 20px;
+    }
+    .bannerHead1{
+        font-size: 22px ;
+    }
+    .subHeading12{
+        padding: 10px 5px;
+        margin-left: 0px;
+    }
+    .subHeading1{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .subHeading{
+        font-size: 14px !important;
+    }
+    .menuSubHeadingServices{
+       font-size: 12px !important; 
+    }
+    .img3{
+        width: 108%;
+        margin-left: -16px;
+    }
+    .img2{
+        width: 123%;
+        margin-left: -34px !important;
+        border: none;
+        margin-bottom: -6px;
+    } 
+     .img2{
+        height: auto;
+        margin-left: 0px;
+    }
+    .bannerHead12{
+      margin-top: -40px;  
+    }
+    .service1{
+       margin-top: -60px;  
+    }
+    .bannersubHead{
+        display: none;
+    }
+    .banner{
+        background-size: contain;
+    }
+    .rowMargin{
+     margin-top: -115px;   
+    }
+    .subHeading11{
+        padding: 10px 0px;
+    }
 }
 
 
@@ -512,8 +602,8 @@ nav{
         display: block;
     }
     .menuLink{
-       padding: 0px 10px;
-       font-size: 12px;
+       padding: 0px 5px;
+       font-size: 11px;
     }
     .footerHeading{
        font-size: 22px;  
@@ -527,12 +617,57 @@ nav{
     .footerForm{
         padding-left: 35px;
     }
+    .projectcode{
+      margin-right: -15px;
+      padding: 17px 15px;
+        margin-top: -20px;
+    }
+     .marginTop{
+        margin-top: -28px;
+    }
+    .imgService{
+      max-width: 40%;
+    }
+     .bannerHead1{
+       font-size: 26px; 
+    }
+    .img1{
+      width: 109%;
+      height: 100%;
+      border: none;
+    }
+     .img2{
+        margin-left: -60px;
+        width: 114%;
+    }
     
 }
     
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
+    .extraWidth{
+        width: 100% !important;
+    }
+    .imgMargin{
+        margin-left: 0px;
+    }
+    .imgHeight{
+        height: auto;
+    }
+    .imgMarginL{
+        margin-left: 0px;
+    }
+    .imgHeight1{
+        height: auto;
+    }
+    .imgBorderRight{
+        border: none;
+    }
+    .imgBorderLeft{
+       border: none;   
+    }
+    
 
 }
 
@@ -541,7 +676,7 @@ nav{
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
   .menuLink{
-      padding: 0px 25px;
+      padding: 0px 19px;
       font-size: 14px;
     }
     .footerHeading{
@@ -553,6 +688,40 @@ nav{
       .centraline{
        padding: 10px 0px 10px 0px;
     }
+    .projectcode{
+      margin-right: -14px;
+      padding: 13px 4px;
+      margin-top: -20px;
+    }
+     .img1{
+      width: 109%;
+      height: 100%;
+    }
+     .menuSubHeading{
+        font-size: 12px;
+    }
+    .details{
+        font-size: 11px;
+    }
+    .img2{
+        margin-left: 35px;
+        width: 100%;
+    }
+    .imgService{
+      max-width: 60%;
+    }
+  .serviceBack{
+    padding: 53px 0px;
+  }
+   .imgHeight{
+        height: 100%; 
+    }
+    .imgHeight1{
+        height: 100%;  
+    }
+    .img3{
+        width: 106%;
+    }
 
 }
 
@@ -560,16 +729,52 @@ nav{
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
-.menuLink{
-    padding: 0px 24px;
-    font-size: 14px;
-    letter-spacing: 3px;
- }
+     .banner{
+        height: 660px;
+    }
+   .menuLink{
+     padding: 0px 24px;
+     font-size: 14px;
+     letter-spacing: 3px;
+   }
   .jumbotron-footer .form-control{
         padding: 20px 50px;
     }
      .footerForm{
         padding-left: 110px !important;
+    }
+    .projectcode{
+      margin-right: -40px;
+      padding: 11px 15px;
+      margin-top: -20px;
+    }
+    .img1{
+      width: 107%;
+      height: 619px;
+    }
+    .menuSubHeading{
+        font-size: 15px;
+    }
+    .details{
+        font-size: 13px;
+    }
+    .marginTop{
+        margin-top: -30px;
+    }
+    .img2{
+        margin-left: 35px;
+    }
+   .img3{
+      margin-left: -30px;
+    }
+    .imgHeight{
+        height: 630px; 
+    }
+     .imgHeight1{
+        height: 630px; 
+    }
+    .subHeading12{
+        padding: 43px 50px;
     }
    
 }
